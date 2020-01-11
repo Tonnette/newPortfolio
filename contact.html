@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Toni's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<header>
+    <div class="myTopCard">
+        <nav class="navbar navbar-expand-sm sticky-top ">
+
+            <a class="navbar-brand"></a>
+            <div class="card toniCard">
+                <div class="card-body">
+                    Toni Stanford
+                </div>
+            </div>
+
+            <div class="collapse-navbar-collapse ml-auto">
+                <div class="card myCard">
+                    <div class="card-body">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link myNav">About</a></li>
+                            <li class="nav-item">
+                                <a href="portfolio.html" class="nav-link myNav">Portfolio</a></li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link myContact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </nav>
+
+
+</header>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="container myContainer">
+                <div class="row">
+                        <div class="col-md-11 col-sm-12">
+                        <h2>Contact</h2>
+                    </div>
+
+                </div>
+
+                <form id="contact-form" method="post" action="contact.php" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-sm-11 col-lg-11">
+                                <div class="form-group">
+                                    <label for="form_name">Name</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-11 col-lg-11">
+                                <div class="form-group">
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-11 col-lg-11">
+                                <div class="form-group">
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" rows="8" required="required" data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Submit" style="background: #008B8B;">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 myFooter">Copyright ©</div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
