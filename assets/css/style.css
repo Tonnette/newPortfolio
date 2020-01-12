@@ -40,9 +40,9 @@
 }
 
 .webWrite {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin-top: -25px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
@@ -72,7 +72,8 @@
       padding: 0px !important;
       margin: auto; 
       text-align: center;
-      width: 100%
+      width: 100%;
+      margin-bottom: 50px;
       
 
 
