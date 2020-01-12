@@ -55,11 +55,50 @@
 
 .carousel-inner img {
     margin: auto;
+    padding: 10px 0px 20px 0px;
    
   }
 
 
 
+  .firstRow {
+ 
+      padding: 10px 10px 25px 0px;
+      margin-bottom: 50px;
+    
+  }
+
+  .myContainer{
+      padding: 0px !important;
+      margin: auto; 
+      text-align: center;
+      width: 100%
+      
+
+
+  }
+
+  .card {
+      text-align: center; 
+      margin-bottom: 25px;
+  }
+
+  .row-centered {
+    text-align:center;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+ }
+ 
+ 
+ .col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+ }
 
 
 
@@ -98,13 +137,7 @@
     line-height: 1;
 }
 
-.myContainer {
-    border: 1px solid lightgrey;
-    background-color: white;
-    margin-top: 15px;
-    padding-bottom: 10px;
-    margin-bottom: 75px;
-}
+
 
 .Hangman {
     position: relative;
@@ -174,12 +207,8 @@ body {
         height: 120px;
         margin-top: 5px;
     }
-    .myContainer {
-        margin-top: 100px;
-    }
-    .myContainerIndex {
-        height: 900px;
-    }
+   
+ 
     .photoJacket {
         display: none;
     }
@@ -217,12 +246,7 @@ body {
         height: 120px;
         margin-top: 5px;
     }
-    .myContainer {
-        margin-top: 100px;
-    }
-    .myContainerIndex {
-        height: 900px;
-    }
+   
     .photoJacket {
         display: none;
     }
@@ -240,7 +264,7 @@ body {
     }
 }
 
-@media screen and (min-width: 980px) and (max-width: 1500px) {
+@media screen and (min-width: 980px) and (max-width: 1199px) {
     .myImage {
         width: 50%;
     }
@@ -249,7 +273,21 @@ body {
         margin-left: 50px;
         padding: 0;
     }
+   
+  
 }
+
+@media (min-width: 1200px){
+    .myContainer{
+     max-width: 1600px;
+        text-align: center;
+
+    }
+
+   
+}
+
+
 
 .myFooter {
     position: fixed;
