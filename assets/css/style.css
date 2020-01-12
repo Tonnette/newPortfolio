@@ -15,6 +15,15 @@
     font-weight: lighter;
 }
 
+.webText{
+    text-align: center;
+    font-size: 40px;
+    padding: 35px 0px 2px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+
+}
+
 .red{
     color: grey;
     text-align: right;
@@ -61,6 +70,11 @@
       margin-bottom: 50px;
     
   }
+  .contactButtons{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
 
   .myContainer{
       padding: 0px !important;
@@ -112,8 +126,21 @@
 .myText{
     margin-left: 15px;
 }
+.egg{
+    width: 80%;
 
+}
 
+.screeningText{
+    text-align: left;
+    margin-left: 45px;
+}
+
+.profileButton {
+    text-align: center;
+    padding-bottom: 10px;
+   
+}
 
 
 
@@ -325,6 +352,13 @@ body {
     .myImage {
         width: 55%;
     }
+    .profileButton {
+        text-align: left;
+        padding-bottom: 10px;
+       
+    }
+
+   
     
 
    
