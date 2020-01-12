@@ -15,8 +15,6 @@
     font-weight: lighter;
 }
 
-
-
 .red{
     color: grey;
     text-align: right;
@@ -27,7 +25,6 @@
 
 .green{
     color: grey;
-  
     text-align: center;
     padding: 0px !important;
 
@@ -59,10 +56,7 @@
    
   }
 
-
-
   .firstRow {
- 
       padding: 10px 10px 25px 0px;
       margin-bottom: 50px;
     
@@ -71,11 +65,10 @@
   .myContainer{
       padding: 0px !important;
       margin: auto; 
-      text-align: center;
+      text-align: left;
       width: 100%;
       margin-bottom: 50px;
-      
-
+      margin-left: 10px;
 
   }
 
@@ -100,6 +93,32 @@
     /* inline-block space fix */
     margin-right:-4px;
  }
+
+.myImage{
+    text-align: center;
+    width: 60%;
+    padding-right: 10px;
+}
+
+.myRow-2{
+    text-align:left;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    margin-left: 10px;
+    transform: translatex(15%);
+}
+
+.myText{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -164,10 +183,7 @@ h2 {
 
 
 
-.myImage {
-    padding-right: 15px;
-    padding-top: 10px;
-}
+
 
 body {
     margin: 0;
@@ -179,17 +195,23 @@ body {
 }
 
 @media (max-width: 575px) {
-    /* .navbar-expand-sm .navbar-nav {
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
-    .navbar-nav .nav-link {
-        padding: 0 10px;
-    } */
-
-    .myImage {
+    .myImage{
         width: 100%;
+    
     }
+    .myRow-2{
+        text-align:left;
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 15px;
+        margin-left: 10px;
+        transform: translatex(-5%);
+    }
+
+
+
+
+ 
     .myCard {
         position: absolute;
         left: 50%;
@@ -208,7 +230,7 @@ body {
         height: 120px;
         margin-top: 5px;
     }
-   
+    
  
     .photoJacket {
         display: none;
@@ -226,9 +248,24 @@ body {
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    .myImage {
+    .myImage{
         width: 100%;
+    
     }
+    .myRow-2{
+        text-align:left;
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 15px;
+        margin-left: 10px;
+        transform: translatex(-5%);
+    }
+
+
+
+
+
+
     .myCard {
         position: absolute;
         left: 50%;
@@ -259,20 +296,15 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 979px) {
-    .myImage {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 980px) and (max-width: 1199px) {
-    .myImage {
-        width: 50%;
-    }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   
     .toniCard {
         position: absolute;
         margin-left: 50px;
         padding: 0;
+    }
+    .myImage {
+        width: 100%;
     }
    
   
@@ -284,6 +316,16 @@ body {
         text-align: center;
 
     }
+
+    .container {
+        max-width: 2000px !important;
+
+    }
+
+    .myImage {
+        width: 55%;
+    }
+    
 
    
 }
