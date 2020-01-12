@@ -5,102 +5,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Toni's Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
 <header>
-    <div class="myTopCard">
-        <nav class="navbar navbar-expand-sm sticky-top ">
+   
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top" style="background-color:#00c0d1">
 
-            <a class="navbar-brand"></a>
-            <div class="card toniCard">
-                <div class="card-body">
-                    Toni Stanford
-                </div>
-            </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center order-2" id="navbarNavDropdown">
+            <ul class="navbar-nav">
 
-            <div class="collapse-navbar-collapse ml-auto">
-                <div class="card myCard">
-                    <div class="card-body">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link myNav">About</a></li>
-                            <li class="nav-item">
-                                <a href="portfolio.html" class="nav-link myNav">Portfolio</a></li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link myContact">Contact</a></li>
-                        </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Web Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Films
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Romp</a>
+                        <a class="dropdown-item" href="#">Love Bytes</a>
+                        <a class="dropdown-item" href="#">The Egg</a>
+                        <a class="dropdown-item" href="#">Milk and Vodka</a>
+                        <a class="dropdown-item" href="#">Slut - The Musicl</a>
+                        <a class="dropdown-item" href="#">Holding Hands</a>
+                        <a class="dropdown-item" href="#">Why Me?</a>
+                        <a class="dropdown-item" href="#">The Vicious and the Delicious</a>
+                        <a class="dropdown-item" href="#">Frontbum Dancin'</a>
+                        <a class="dropdown-item" href="#">Wally</a>
+                        <a class="dropdown-item" href="#">Tina Sol</a>
                     </div>
-                </div>
-            </div>
-    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Screenings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Awards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
     </nav>
 
 
 </header>
 
 <body>
-
-
-
     <div class="container">
         <div class="row">
-                <div class="col-lg-8 col-md-12 col-sm-12">
-            <div class="container myContainer">
-                <div class="row">
-                        <div class="col-md-11 col-sm-12">
-                        <h2>Contact</h2>
-                    </div>
-
-                </div>
-
-                <form id="contact-form" method="post" action="contact.php" role="form">
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-
-                        <div class="row">
-                            <div class="col-sm-11 col-lg-11">
-                                <div class="form-group">
-                                    <label for="form_name">Name</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-11 col-lg-11">
-                                <div class="form-group">
-                                    <label for="form_email">Email</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-11 col-lg-11">
-                                <div class="form-group">
-                                    <label for="form_message">Message</label>
-                                    <textarea id="form_message" name="message" class="form-control" rows="8" required="required" data-error="Please, leave us a message."></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-12">
-                                <input type="submit" class="btn btn-success btn-send" value="Submit" style="background: #008B8B;">
-                            </div>
-                        </div>
-                    </div>
-
-                </form>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 class="myName">Tonnette Stanford</h1>
             </div>
         </div>
-
     </div>
+
+    <div class="container webWrite">
+        <div class="row webRow">
+            <div class="col-lg-5 col-md-5 col-md-offset-1 col-sm-5 col-xs-5 red">
+                <p class="web">WEB DEVELOPER</p>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 green">
+                <p class="sep">|</p>
+            </div>
+
+
+            <div class="col-lg-4 col-md-5 col-sm-4 col-xs-5 blue">
+                <p class="writer">WRITER/DIRECTOR</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+          Contact
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">+61 421 068 813</h5>
+          <p class="card-text">tonnettestanford@yahoo.com.au</p>
+          <a href="index.html" class="btn btn-outline-info">Home</a>
+        </div>
+      </div>
+
+
+    
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
 
