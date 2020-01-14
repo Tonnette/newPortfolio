@@ -36,6 +36,80 @@
     padding: 0px !important;
 }
 
+.romp,
+.why,
+.theEgg,
+.milk,
+.loveBytes,
+.wally,
+.vicous,
+.holding {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle1,
+.middle2,
+.middle3,
+.middle4,
+.middle5,
+.middle6,
+.middle7,
+.middle8,
+.middle9 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.rompCard:hover .romp,
+.eggCard:hover .theEgg,
+.milkCard:hover .milk,
+.loveCard:hover .loveBytes,
+.slutCard:hover .slut,
+.wallyCard:hover .wally,
+.viciousCard:hover .vicious,
+.holdingCard:hover .holding,
+.whyCard:hover .why {
+    opacity: 0.3;
+}
+
+.rompCard:hover .middle1,
+.eggCard:hover .middle2,
+.milkCard:hover .middle3,
+.loveCard:hover .middle4,
+.slutCard:hover .middle5,
+.wallyCard:hover .middle6,
+.viciousCard:hover .middle7,
+.holdingCard:hover .middle8,
+.whyCard:hover .middle9 {
+    opacity: 1;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text9 {
+    background-color: #00c0d1;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
 .blue {
     color: grey;
     text-align: left;
@@ -76,7 +150,6 @@
     text-align: left;
     width: 100%;
     margin-bottom: 50px;
-    margin-left: 10px;
 }
 
 .card {
