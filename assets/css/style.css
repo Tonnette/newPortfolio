@@ -1,303 +1,314 @@
-* {
-    box-sizing: border-box;
-    border-radius: 0 !important;
-}
-
-.selector-for-some-widget {
-    box-sizing: content-box;
-}
-
-.myName {
-    text-align: center;
-    font-size: 65px;
-    padding: 35px 0px 25px 0px;
-    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-
-.webText {
-    text-align: center;
-    font-size: 40px;
-    padding: 35px 0px 2px 0px;
-    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-
-.red {
-    color: grey;
-    text-align: right;
-    padding: 0px 0px 0px 10px !important;
-    margin-left: 30px;
-}
-
-.green {
-    color: grey;
-    text-align: center;
-    padding: 0px !important;
-}
-
-.romp,
-.why,
-.theEgg,
-.milk,
-.loveBytes,
-.wally,
-.vicous,
-.holding {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.middle1,
-.middle2,
-.middle3,
-.middle4,
-.middle5,
-.middle6,
-.middle7,
-.middle8,
-.middle9 {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.rompCard:hover .romp,
-.eggCard:hover .theEgg,
-.milkCard:hover .milk,
-.loveCard:hover .loveBytes,
-.slutCard:hover .slut,
-.wallyCard:hover .wally,
-.viciousCard:hover .vicious,
-.holdingCard:hover .holding,
-.whyCard:hover .why {
-    opacity: 0.3;
-}
-
-.rompCard:hover .middle1,
-.eggCard:hover .middle2,
-.milkCard:hover .middle3,
-.loveCard:hover .middle4,
-.slutCard:hover .middle5,
-.wallyCard:hover .middle6,
-.viciousCard:hover .middle7,
-.holdingCard:hover .middle8,
-.whyCard:hover .middle9 {
-    opacity: 1;
-}
-
-.text1,
-.text2,
-.text3,
-.text4,
-.text5,
-.text6,
-.text7,
-.text8,
-.text9 {
-    background-color: #00c0d1;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-}
-
-.blue {
-    color: grey;
-    text-align: left;
-    padding: 0px !important;
-}
-
-.webWrite {
-    padding-bottom: 30px;
-    margin-top: -25px;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-
-.myCarousel {
-    width: 90%;
-    margin: auto;
-}
-
-.carousel-inner img {
-    margin: auto;
-    padding: 10px 0px 20px 0px;
-}
-
-.firstRow {
-    padding: 10px 10px 25px 0px;
-    margin-bottom: 50px;
-}
-
-.contactButtons {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.myContainer {
-    padding: 0px !important;
-    margin: auto;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.card {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.row-centered {
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    padding-left: 15px;
-}
-
-.col-centered {
-    display: inline-block;
-    float: none;
-    /* reset the text-align */
-    text-align: left;
-    /* inline-block space fix */
-    margin-right: -4px;
-}
-
-.myImage {
-    text-align: center;
-    width: 60%;
-    padding-right: 10px;
-}
-
-.myRow-2 {
-    text-align: left;
-    margin: 0 auto;
-    width: 100%;
-    padding: 15px;
-    margin-left: 10px;
-    transform: translatex(15%);
-}
-
-.myRowBio {
-    text-align: left;
-    margin: 0 auto;
-    width: 100%;
-    padding: 15px;
-    border: 1px solid lightgrey;
-}
-
-.myText {
-    margin-left: 15px;
-}
-
-.egg {
-    width: 80%;
-}
-
-.screeningText {
-    text-align: left;
-    margin-left: 45px;
-}
-
-.profileButtonFilms {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.profileButton {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-body {
-    margin: 0;
-    padding: 0px;
-    color: grey;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    line-height: 2;
-}
-
-@media (max-width: 575px) {
-    .myImage {
-        width: 100%;
-    }
-    .myRow-2 {
-        text-align: left;
-        margin: 0 auto;
-        width: 100%;
-        padding-left: 15px;
-        margin-left: 10px;
-        transform: translatex(-5%);
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-    .myImage {
-        width: 100%;
-    }
-    .myRow-2 {
-        text-align: left;
-        margin: 0 auto;
-        width: 100%;
-        padding-left: 15px;
-        margin-left: 10px;
-        transform: translatex(-5%);
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .toniCard {
-        position: absolute;
-        margin-left: 50px;
-        padding: 0;
-    }
-    .myImage {
-        width: 100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .myContainer {
-        max-width: 1600px;
-        text-align: center;
-    }
-    .container {
-        max-width: 2000px !important;
-    }
-    .myImage {
-        width: 55%;
-    }
-    .profileButton {
-        text-align: left;
-        padding-bottom: 10px;
-    }
-    .profileButtonFilms {
-        text-align: center;
-        padding-bottom: 10px;
-    }
-}
-
-.myFooter {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: grey;
-    color: white;
-    text-align: center;
-    font-size: 10px;
-    padding-top: 30px;
-    border-top: 8px solid #00c0d1;
-    font-family: Arial, Helvetica, sans-serif;
-    z-index: 10;
-}
+                            * {
+                                box-sizing: border-box;
+                                border-radius: 0 !important;
+                            }
+                            
+                            .selector-for-some-widget {
+                                box-sizing: content-box;
+                            }
+                            
+                            .myName {
+                                text-align: center;
+                                font-size: 65px;
+                                padding: 35px 0px 25px 0px;
+                                font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+                                font-weight: lighter;
+                            }
+                            
+                            .webText {
+                                text-align: center;
+                                font-size: 40px;
+                                padding: 35px 0px 2px 0px;
+                                font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+                                font-weight: lighter;
+                            }
+                            
+                            .red {
+                                color: grey;
+                                text-align: right;
+                                padding: 0px 0px 0px 10px !important;
+                                margin-left: 30px;
+                            }
+                            
+                            .green {
+                                color: grey;
+                                text-align: center;
+                                padding: 0px !important;
+                            }
+                            
+                            .romp,
+                            .why,
+                            .theEgg,
+                            .milk,
+                            .loveBytes,
+                            .wally,
+                            .vicous,
+                            .holding {
+                                opacity: 1;
+                                display: block;
+                                width: 100%;
+                                height: auto;
+                                transition: .5s ease;
+                                backface-visibility: hidden;
+                            }
+                            
+                            .middle1,
+                            .middle2,
+                            .middle3,
+                            .middle4,
+                            .middle5,
+                            .middle6,
+                            .middle7,
+                            .middle8,
+                            .middle9 {
+                                transition: .5s ease;
+                                opacity: 0;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                text-align: center;
+                            }
+                            
+                            .rompCard:hover .romp,
+                            .eggCard:hover .theEgg,
+                            .milkCard:hover .milk,
+                            .loveCard:hover .loveBytes,
+                            .slutCard:hover .slut,
+                            .wallyCard:hover .wally,
+                            .viciousCard:hover .vicious,
+                            .holdingCard:hover .holding,
+                            .whyCard:hover .why {
+                                opacity: 0.3;
+                            }
+                            
+                            .rompCard:hover .middle1,
+                            .eggCard:hover .middle2,
+                            .milkCard:hover .middle3,
+                            .loveCard:hover .middle4,
+                            .slutCard:hover .middle5,
+                            .wallyCard:hover .middle6,
+                            .viciousCard:hover .middle7,
+                            .holdingCard:hover .middle8,
+                            .whyCard:hover .middle9 {
+                                opacity: 1;
+                            }
+                            
+                            .text1,
+                            .text2,
+                            .text3,
+                            .text4,
+                            .text5,
+                            .text6,
+                            .text7,
+                            .text8,
+                            .text9 {
+                                background-color: #00c0d1;
+                                color: white;
+                                font-size: 16px;
+                                padding: 16px 32px;
+                            }
+                            
+                            .blue {
+                                color: grey;
+                                text-align: left;
+                                padding: 0px !important;
+                            }
+                            
+                            .webWrite {
+                                padding-bottom: 30px;
+                                margin-top: -25px;
+                                font-size: 15px;
+                                font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+                                font-weight: lighter;
+                            }
+                            
+                            .myCarousel {
+                                width: 90%;
+                                margin: auto;
+                            }
+                            
+                            .carousel-inner img {
+                                margin: auto;
+                                padding: 10px 0px 20px 0px;
+                            }
+                            
+                            .firstRow {
+                                padding: 10px 10px 25px 0px;
+                                margin-bottom: 50px;
+                            }
+                            
+                            .contactButtons {
+                                text-align: center;
+                                padding-bottom: 10px;
+                            }
+                            
+                            .myContainer {
+                                padding: 0px !important;
+                                margin: auto;
+                                text-align: left;
+                                width: 100%;
+                                margin-bottom: 50px;
+                            }
+                            
+                            .card {
+                                text-align: center;
+                                margin-bottom: 25px;
+                            }
+                            
+                            .row-centered {
+                                text-align: center;
+                                margin: 0 auto;
+                                width: 100%;
+                                padding-left: 15px;
+                            }
+                            
+                            .col-centered {
+                                display: inline-block;
+                                float: none;
+                                /* reset the text-align */
+                                text-align: left;
+                                /* inline-block space fix */
+                                margin-right: -4px;
+                            }
+                            
+                            .myImage {
+                                text-align: center;
+                                width: 60%;
+                                padding-right: 10px;
+                            }
+                            
+                            .myRow-2 {
+                                text-align: left;
+                                margin: 0 auto;
+                                width: 100%;
+                                padding: 15px;
+                                margin-left: 10px;
+                                transform: translatex(15%);
+                            }
+                            
+                            .myRowBio {
+                                text-align: left;
+                                margin: 0 auto;
+                                width: 100%;
+                                padding: 15px;
+                                border: 1px solid lightgrey;
+                            }
+                            
+                            .myText {
+                                margin-left: 15px;
+                            }
+                            
+                            .egg {
+                                width: 80%;
+                            }
+                            
+                            .screeningText {
+                                text-align: left;
+                                margin-left: 45px;
+                            }
+                            
+                            .profileButtonFilms {
+                                text-align: center;
+                                padding-bottom: 10px;
+                            }
+                            
+                            .profileButton {
+                                text-align: center;
+                                padding-bottom: 10px;
+                            }
+                            
+                            body {
+                                margin: 0;
+                                padding: 0px;
+                                color: grey;
+                                font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+                                line-height: 2;
+                            }
+                            
+                            @media (max-width: 575px) {
+                                .myImage {
+                                    width: 100%;
+                                }
+                                .myRow-2 {
+                                    text-align: left;
+                                    margin: 0 auto;
+                                    width: 100%;
+                                    padding-left: 15px;
+                                    margin-left: 10px;
+                                    transform: translatex(-5%);
+                                }
+                                .red,
+                                .blue {
+                                    /*display property will be overriden as any class further inside this scope*/
+                                    text-align: center;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    font-size: larger;
+                                }
+                                .green {
+                                    display: none;
+                                }
+                            }
+                            
+                            @media screen and (min-width: 576px) and (max-width: 767px) {
+                                .myImage {
+                                    width: 100%;
+                                }
+                                .myRow-2 {
+                                    text-align: left;
+                                    margin: 0 auto;
+                                    width: 100%;
+                                    padding-left: 15px;
+                                    margin-left: 10px;
+                                    transform: translatex(-5%);
+                                }
+                            }
+                            
+                            @media screen and (min-width: 768px) and (max-width: 1199px) {
+                                .toniCard {
+                                    position: absolute;
+                                    margin-left: 50px;
+                                    padding: 0;
+                                }
+                                .myImage {
+                                    width: 100%;
+                                }
+                            }
+                            
+                            @media (min-width: 1200px) {
+                                .myContainer {
+                                    max-width: 1600px;
+                                    text-align: center;
+                                }
+                                .container {
+                                    max-width: 2000px !important;
+                                }
+                                .myImage {
+                                    width: 55%;
+                                }
+                                .profileButton {
+                                    text-align: left;
+                                    padding-bottom: 10px;
+                                }
+                                .profileButtonFilms {
+                                    text-align: center;
+                                    padding-bottom: 10px;
+                                }
+                            }
+                            
+                            .myFooter {
+                                position: fixed;
+                                left: 0;
+                                bottom: 0;
+                                width: 100%;
+                                background-color: grey;
+                                color: white;
+                                text-align: center;
+                                font-size: 10px;
+                                padding-top: 30px;
+                                border-top: 8px solid #00c0d1;
+                                font-family: Arial, Helvetica, sans-serif;
+                                z-index: 10;
+                            }
